@@ -1,9 +1,4 @@
-# React TypeScript Starter Pack
-
-To use this template click `Use this template`
-
-### Available Scripts
-
-`Deploy` - available to deploy your application to gh-pages
-
-`SCSS Preprocessor` - available to write your styles with modern style language
+npm i - to install the project
+npm start - to run locale server with aplication
+ 
+[DEMO LINK](https://webdevw.github.io/appTodos/)
