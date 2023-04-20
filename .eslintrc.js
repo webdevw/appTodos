@@ -1,28 +1,28 @@
 module.exports = {
   extends: [
-    '@mate-academy/eslint-config-react-typescript',
-    'plugin:react/recommended',
+    // '@mate-academy/eslint-config-react-typescript',
+    // 'plugin:react/recommended',
   ],
   rules: {
     // React
     'react/prop-types': 0,
     'react/self-closing-comp': 0,
     'react/display-name': 0,
-    'jsx-runtime': {
-      plugins: [
-        'react'
-      ],
-      parserOptions: {
-        ecmaFeatures: {
-          jsx: true
-        },
-        jsxPragma: null // for @typescript/eslint-parser
-      },
-      rules: {
-        'react/react-in-jsx-scope': 0,
-        'react/jsx-uses-react': 0
-      }
-    },
+    // 'jsx-runtime': {
+    //   plugins: [
+    //     'react'
+    //   ],
+    //   parserOptions: {
+    //     ecmaFeatures: {
+    //       jsx: true
+    //     },
+    //     jsxPragma: null // for @typescript/eslint-parser
+    //   },
+    //   rules: {
+    //     'react/react-in-jsx-scope': 0,
+    //     'react/jsx-uses-react': 0
+    //   }
+    // },
 
     // JavaScript
     semi: 0,
